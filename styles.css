@@ -1,0 +1,24 @@
+div {
+    display: block;
+}
+
+.fecha {
+    display: inline-block;
+    width: 10ch;
+    vertical-align: middle;
+    
+}
+
+.fecha::after {
+    content: "✪";
+    position: absolute;
+    border-right: 2px solid black;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.descripcion {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 25px;
+}
